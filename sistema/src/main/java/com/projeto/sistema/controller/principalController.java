@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class principalController {
-    @GetMapping("/administrativo")
+    @GetMapping("/")
     public String acessarPrincipal() {
         return "administrativo/home";
     }
