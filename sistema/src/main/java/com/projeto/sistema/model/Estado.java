@@ -18,7 +18,9 @@ public class Estado implements Serializable{
     private Long id;
     private String nome;
     private String sigla;
-
+    public static long getSerialversionuid() {
+        return serialVersionUID;
+    }
     public Long getId() {
         return id;
     }
@@ -34,9 +36,11 @@ public class Estado implements Serializable{
     public String getSigla() {
         return sigla;
     }
-    public void setSigla(String gigla) {
+    public void setSigla(String sigla) {
         this.sigla = sigla;
     }
+
+  
 
     
 }

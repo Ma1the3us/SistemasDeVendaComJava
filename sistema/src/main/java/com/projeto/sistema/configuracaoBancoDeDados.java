@@ -16,7 +16,7 @@ public class configuracaoBancoDeDados {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.postgresql.Driver"); //declara as configurações de acesso
-		dataSource.setUrl("jdbc:postgresql://localhost:5433/loja");
+		dataSource.setUrl("jdbc:postgresql://localhost:5432/dbsistemadevendas");
 		dataSource.setUsername("matheus");//usuario
 		dataSource.setPassword("123456");//senha
 		return dataSource;
